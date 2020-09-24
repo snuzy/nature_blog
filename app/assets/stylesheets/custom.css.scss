@@ -1,0 +1,62 @@
+@import 'bootstrap/dist/css/bootstrap';
+
+.navbar {
+  background-color: #000000 !important;
+}
+
+.nav-link {
+	color: #fff !important;
+}
+
+.navbar-brand {
+  font-size: 3rem;
+}
+
+ #logo {
+   color: #9890a3 !important;
+   text-transform: uppercase;
+ }
+ #logo:hover {
+   text-decoration: none;
+   color: #fff;
+ }
+
+h1 {
+  color: #716285;
+}
+
+.jumbotron {
+  background-image: asset-url('nature1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: white;
+  height: 425px;
+ }
+
+ #home-container {
+   margin-top: 50px;
+ }
+
+ #jumboheader{
+ color: white;
+ }
+
+ html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+  
+  background: linear-gradient(to right, #5c5b58, #333333);
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
+
+/* Other Classes for Page Styling */
+
+
